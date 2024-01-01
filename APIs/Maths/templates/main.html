@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lol</title>
+    
+</head>
+<body>
+    <h1>My Application</h1>
+    
+    <form action='/add'>        
+        <label for="value_1">Enter First number</label>
+        <input type="number" name="value_1">
+        <label for="value_2">Enter Second number</label>
+        <input type="number" name="value_2">
+        <button type="submit" formaction="/add">Add</button>
+        <button type="submit" formaction="/sub">Subtract</button>
+        <button type="submit" formaction="/mul">Multiply</button>
+    </form>
+    
+    <h2>Result</h2>
+    <p>The of calculation is {{result}}</p>
+</body>
+</html>
